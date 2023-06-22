@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+  
+  header {
+    background-color: #ebe9f1;
+    padding: 5px;
+    text-align: center;
+} 
+
+.cabecalho{
+    margin: 50px;
+    margin-left: 100px;
+    margin-top: 5px;
+  
+} 
+.icon2{
+        width: 8px;
+        height: 6px;
+    
+    }
+    
+  
+  
+  h1 {
+    margin: 0;
+    color: #662d91;
+
+
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  .section-title {
+    color: #662d91;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .tips {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .tip-card {
+    background-color: #f4e6f6;
+    border-radius: 8px;
+    padding: 10px;
+    flex-basis: calc(33.33% - 10px);
+    text-align: center;
+  }
+  
+  .forum {
+    margin-top: 40px;
+  }
+  
+  .form-container {
+    background-color: #d1ecf1;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .form-container input[type="text"],
+  .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .form-container input[type="submit"] {
+    background-color: #662d91;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  
+  .form-container input[type="submit"]:hover {
+    background-color: #4a1d6e;
+
+  }
+  
+  .forum-title {
+    color: #662d91;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .post {
+    background-color: #f8f0fc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .post-author {
+    color: #662d91;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .post-content {
+    line-height: 1.5;
+  }
+  
+  .menstruation-calc {
+    margin-top: 40px;
+  }
+  
+  .calc-container {
+    background-color: #fce4ec;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .calc-container input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .calc-container input[type="submit"] {
+    background-color: #662d91;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  
+  .calc-container input[type="submit"]:hover {
+    background-color: #4a1d6e;
+   
+  }
+  
+  .result {
+    color: #662d91;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+/*   
+  .anti{
+    width: 10px;
+    height: 8px;
+  } */
+
+
+  .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #b2d8d8;
+    position: relative;
+    animation: spin 3s linear infinite;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  @media screen and (max-width: 600px) {
+    .container {
+      padding: 0 10px;
+    }
+    
+    .tips {
+      flex-wrap: wrap;
+    }
+    
+    .tip-card {
+      margin-bottom: 10px;
+      flex-basis: 100%;
+    }
+
+  }
